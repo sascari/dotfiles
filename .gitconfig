@@ -1,0 +1,15 @@
+[user]
+  name = Smith Ascari
+  email = smithascari@gmail.com
+[color]
+  branch = auto
+  diff = auto
+  grep = auto
+  interactive = auto
+  status = auto
+[alias]
+  s = status
+  go = checkout
+  co = checkout
+  amendeia = commit -a --amend --no-edit
+  aplica = !sh -c  \"git fetch $1 merge-requests/$2/head:$3\"
