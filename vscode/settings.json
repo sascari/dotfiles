@@ -1,0 +1,10 @@
+{
+    "workbench.activityBar.visible": false,
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Github Light Theme",
+    "editor.fontSize": 14,
+    "window.zoomLevel": 0
+}
