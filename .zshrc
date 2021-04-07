@@ -22,5 +22,5 @@ antigen apply
 
 source /usr/local/opt/asdf/asdf.sh
 
-export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:/usr/local/sbin"
 
