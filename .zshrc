@@ -1,11 +1,10 @@
 # Disable warning about zsh completitions
 ZSH_DISABLE_COMPFIX=true
 
-export ZSH=$HOME/.oh-my-zsh
-source $ZSH/oh-my-zsh.sh
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 source $(brew --prefix)/share/antigen/antigen.zsh
-
+source $(brew --prefix asdf)/asdf.sh
 # Load the oh-my-zsh's library
 antigen use oh-my-zsh
 
@@ -19,8 +18,6 @@ antigen bundle command-not-found
 
 # Tell Antigen that you're done
 antigen apply
-
-source /usr/local/opt/asdf/asdf.sh
 
 export PATH="$PATH:/usr/local/sbin"
 
