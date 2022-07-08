@@ -13,7 +13,6 @@ brew "openssl@1.1"
 brew "readline"
 brew "asdf"
 brew "libffi"
-brew "sqlite"
 brew "cmake"
 brew "dbus"
 brew "dbus-glib"
@@ -37,18 +36,12 @@ brew "libomp"
 brew "openjpeg"
 brew "imagemagick"
 brew "mas"
-brew "nginx"
-brew "node"
-brew "postgresql", restart_service: true
-brew "rabbitmq"
-brew "redis"
 brew "ripgrep"
 brew "sphinx-doc"
 brew "utf8proc"
 brew "tmux"
 brew "tree"
 brew "watch"
-brew "yarn"
 brew "zlib"
 cask "1password"
 cask "alfred3"
@@ -76,7 +69,6 @@ mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
 mas "SketchBook", id: 863486266
-mas "Slack", id: 803453959
 mas "Telegram", id: 747648890
 mas "Textual IRC Client", id: 896450579
 mas "The Unarchiver", id: 425424353

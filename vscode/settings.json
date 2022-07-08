@@ -5,12 +5,12 @@
     "files.trimTrailingWhitespace": true,
     "editor.renderWhitespace": "all",
     "editor.fontSize": 13,
-    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.sideBar.location": "right",
     "window.zoomLevel": 1,
     "workbench.settings.editor": "json",
     "workbench.colorCustomizations": {
         "tab.activeBackground": "#2c2c2c",
         "tab.activeBorder": "#00c6ee"
-    }
+    },
+    "workbench.colorTheme": "Colorizer"
 }
