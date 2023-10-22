@@ -4,7 +4,7 @@ ZSH_DISABLE_COMPFIX=true
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 source $(brew --prefix)/share/antigen/antigen.zsh
-source $(brew --prefix asdf)/asdf.sh
+source $(brew --prefix asdf)/libexec/asdf.sh
 # Load the oh-my-zsh's library
 antigen use oh-my-zsh
 
