@@ -41,6 +41,7 @@ brew "tmux"
 brew "tree"
 brew "watch"
 brew "zlib"
+cask "1password"
 cask "alfred3"
 cask "chromedriver"
 cask "dash4"
@@ -55,7 +56,6 @@ cask "spotify"
 cask "tableplus"
 cask "typora"
 cask "visual-studio-code"
-mas "1Password 7", id: 1333542190
 mas "Annotate", id: 918207447
 mas "Be Focused", id: 973134470
 mas "GIPHY CAPTURE", id: 668208984
