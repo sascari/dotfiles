@@ -1,3 +1,6 @@
+# configure brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # source antidote
 source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 antidote load # initialize plugins, refer to https://antidote.sh/install
